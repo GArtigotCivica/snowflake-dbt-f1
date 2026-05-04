@@ -1,0 +1,21 @@
+f1:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: 'not needed'
+      user: 'not needed'
+      role: SYSADMIN
+      database: WORKSHOP
+      schema: F1
+      warehouse: DBT_WH
+      threads: 8
+    prod:
+      type: snowflake
+      account: 'not needed'
+      user: 'not needed'
+      role: SYSADMIN
+      database: WORKSHOP
+      schema: F1
+      warehouse: DBT_WH
+      threads: 8
